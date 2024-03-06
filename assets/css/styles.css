@@ -274,7 +274,7 @@ img {
 }
 
 .about__img img {
-  width: 200px;
+  width: 220px;
   height: 250px;
   border-radius: 0.5rem;
  
@@ -347,8 +347,8 @@ img {
   border-radius: 0.5rem;
   height: 550px;
   width: 400px;
-  margin-left: 2rem;
-
+  margin-left: 1rem;
+justify-self: center;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
 
