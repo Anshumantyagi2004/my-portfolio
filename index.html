@@ -40,7 +40,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Anshuman</span><br> Web Developer</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Anshuman</span><br><span id="element"></span></h1>
 
                     <a href="assets/Anshuman resume.pdf" target="_blank" download="" class="button">Download Resume</a>
                 </div>
@@ -193,5 +193,12 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer' ,'Web Designer' ,'Video Editor'],
+              typeSpeed: 70,
+            });
+          </script>
     </body>
 </html>
